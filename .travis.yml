@@ -13,4 +13,4 @@ install:
   - pip install jinja2
 
 script: 
-  - nosetests ./tbc-python-web-crawler/testing/
+  - python tbc_python_web_crawler.py http://tbc-python.fossee.in/completed-books/
