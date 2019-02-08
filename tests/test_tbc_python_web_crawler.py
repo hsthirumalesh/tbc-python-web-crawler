@@ -2,6 +2,7 @@ import unittest
 import os
 from tbc_python_web_crawler import get_chapter_errors, get_details, error_log_to_html
 from jinja2 import Template
+print 'test'
 
 chapter_details = [['Chapter 1 Introduction',
   'http://tbc-python.fossee.in/convert-notebook/Fundamentals_of_Fluid_Mechanics/ch_1.ipynb'],
