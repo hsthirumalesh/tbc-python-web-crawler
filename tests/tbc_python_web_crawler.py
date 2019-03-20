@@ -127,7 +127,7 @@ def main():
     # Get details of the book
     for book_name, book_link in book_details_list:
         chapter_details_list = get_details(book_link, index=0)
-        _id = book_link.strip('http://tbc-python.fossee.in/book-details')
+        _id = book_link.strip('https://tbc-python.fossee.in/completed-books/')
         
         chapters = []
         # Get details of the chapter
