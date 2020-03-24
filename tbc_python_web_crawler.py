@@ -6,6 +6,9 @@ import os
 import webbrowser
 from bs4 import BeautifulSoup
 
+def dummy():
+    return 1
+
 def get_details(link, index):
     """ Crawls through the given link for book or chapter details
 
