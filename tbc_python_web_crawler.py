@@ -6,7 +6,7 @@ import os
 import webbrowser
 from bs4 import BeautifulSoup
 
-def dummy():
+def dummy1():
     return 1
 
 def get_details(link, index):
